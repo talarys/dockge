@@ -19,4 +19,6 @@ services:
 volumes:
   ollama:
     name: ollama
-networks: {}
+networks:
+  dockge_default:
+    external: true
