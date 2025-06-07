@@ -10,5 +10,5 @@ services:
       - /home/null/dockge/stacks:/home/null/dockge/stacks
     environment:
       # Tell Dockge where is your stacks directory
-      - DOCKGE_STAKS_DIR=/home/null/dockge/stacks
+      - DOCKGE_STACKS_DIR=/home/null/dockge/stacks
     restart: always
